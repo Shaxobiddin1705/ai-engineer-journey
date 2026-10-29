@@ -5,7 +5,7 @@
 I'm a Flutter engineer with 4 years of experience, transitioning into AI engineering.
 This repo is my public, day-by-day log of a 52-week learning plan: notes, labs, projects and evals.
 
-📅 **Timeline:** 2026-11-02 → 2027-10-31 · ⏱ **Commitment:** 60+ minutes every day
+📅 **Timeline:** 2026-10-29 → 2027-10-31 · ⏱ **Commitment:** 60+ minutes every day
 
 ---
 
