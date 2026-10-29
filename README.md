@@ -69,7 +69,7 @@ Python · FastAPI · Pydantic · SQLAlchemy · PostgreSQL · pgvector · Redis �
 
 ## 📫 Contact
 
-- LinkedIn: `https://www.linkedin.com/in/shaxobiddin-sultonov-019566236/`
+- LinkedIn: [Link text] (https://www.linkedin.com/in/shaxobiddin-sultonov-019566236/)
 - Email: `shaxobiddins00@gmail.com`
 - Phone: `+998 91 798 2322`
 - Telegram: `https://t.me/shaxobiddin_sultonov`
