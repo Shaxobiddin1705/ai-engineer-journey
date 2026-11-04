@@ -3,3 +3,9 @@
 - Tushunmadim: Yaratilgan papkalar gitda ko'rinmasligi tushunarsiz
 - Ertaga: D002 — Git branch, merge, rebase
 - Commit: https://github.com/Shaxobiddin1705/ai-engineer-journey/commits/main/
+
+## D002 · 2026-11-04
+- Qildim: Learn Git Branching’da 8 ta level’ni yechtim. /git-practice da conflict va merge o'rganildi. /notes/git.md notes qo'shildi
+- Tushunmadim: Gitda rebase qilish sal tushunarsiz bo'ldi
+- Ertaga: 
+- Commit: https://github.com/Shaxobiddin1705/ai-engineer-journey/commits/main/
