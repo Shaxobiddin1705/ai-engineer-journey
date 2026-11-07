@@ -13,5 +13,5 @@
 ## D003 · 2026-11-05
 - Qildim: Python Tutorial 5 bobni hammasini o'qib chiqtim. Python collections bilan bog'liq 10 ta mash bajarildi.
 - Tushunmadim: assert ni har bir mash uchun to'g'ri ishlatishni
-- Ertaga: 
+- Ertaga: Muhit, Git va Python poydevori
 - Commit: https://github.com/Shaxobiddin1705/ai-engineer-journey/commits/main/
