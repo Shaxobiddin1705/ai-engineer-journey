@@ -21,3 +21,9 @@
 - Tushunmadim: 
 - Ertaga: Python loyihasini Flutter’dagidek to’g’ri tuzish:
 - Commit: https://github.com/Shaxobiddin1705/ai-engineer-journey/commits/main/
+
+## D005 · 2026-11-08
+- Qildim: `uv` bilan project create qilish va `uv add/run` kamandalarini urgandim. `ruff` ni projectga set up qildim va u bilan code ni analyze va format qilishni o'rgandim. `python-starter` template yaratdim. `labs/w01` dagi fayls ni ruff orqali `analyze` va `formatted` qilindi.
+- Tushunmadim: `pyproject.toml` tushunarsiz ekan. 'pubspeck.yaml` file dan ancha farq qilarkan.
+- Ertaga: Hafta davomida o’rganganlaringizni (tiplar, comprehension, f-string, uv, ruff) bitta ishlaydigan CLI todo ilovada birlashtirish.
+- Commit: https://github.com/Shaxobiddin1705/ai-engineer-journey/commits/main/
