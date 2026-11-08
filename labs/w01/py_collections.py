@@ -1,4 +1,5 @@
 """D003: Python kolleksiyalari va mutability."""
+
 import copy
 
 
@@ -14,38 +15,38 @@ def ex01_tuple_immutability():
 
 
 def ex02_list_mutable():
-    '''
-    bitta o'zgaruvchining qiymatini boshqa o'zgaruvchiga tayinlash va keyin uni o'zgartirish, 
+    """
+    bitta o'zgaruvchining qiymatini boshqa o'zgaruvchiga tayinlash va keyin uni o'zgartirish,
     bu a o'zgaruvchisining qiymatini o'zgartirmaydi.
-    '''
+    """
     fruits = ["apple", "banana", "cherry"]
     fruits2 = fruits
-    fruits2.append('orange')
+    fruits2.append("orange")
     # True, both variables point to the same list object
-    print(f'fruits is fruits2: {fruits is fruits2}')
-    print(f'fruits id = {id(fruits)}')
-    print(f'fruits2 id = {id(fruits2)}')
+    print(f"fruits is fruits2: {fruits is fruits2}")
+    print(f"fruits id = {id(fruits)}")
+    print(f"fruits2 id = {id(fruits2)}")
     print(f"fruits = {fruits}")
     print(f"fruits2 = {fruits2}")
 
 
 def ex03_list_copying():
-    '''
+    """
     bitta o'zgaruvchining qiymatini boshqa o'zgaruvchiga tayinlash va keyin uni o'zgartirish,
     bu a o'zgaruvchisining qiymatini o'zgartirmaydi.
-    '''
+    """
     numbers = [1, 2, 3, 4, 5]
     numbers2 = copy.copy(numbers)
     numbers2.append(6)
     numbers3 = copy.deepcopy(numbers)
     numbers3.append(7)
     # False, both variables point to different list objects
-    print(f'numbers is numbers2: {numbers is numbers2}')
-    print(f'numbers is numbers3: {numbers is numbers3}')
-    print(f'numbers2 is numbers3: {numbers2 is numbers3}')
-    print(f'numbers id = {id(numbers)}')
-    print(f'numbers2 id = {id(numbers2)}')
-    print(f'numbers3 id = {id(numbers3)}')
+    print(f"numbers is numbers2: {numbers is numbers2}")
+    print(f"numbers is numbers3: {numbers is numbers3}")
+    print(f"numbers2 is numbers3: {numbers2 is numbers3}")
+    print(f"numbers id = {id(numbers)}")
+    print(f"numbers2 id = {id(numbers2)}")
+    print(f"numbers3 id = {id(numbers3)}")
     # print(f"numbers = {numbers}")
     # print(f"numbers2 = {numbers2}")
     # print(f"numbers3 = {numbers3}")
@@ -60,10 +61,10 @@ def ex04_list_mutable_nested():
     barcha ichki ro'yxatlar bir xil qiymatga ega bo'ladi.
     """
     grid = [[0] * 3] * 3
-    print(f'grid = {grid}')
+    print(f"grid = {grid}")
     grid[0][0] = 1
-    print(f'grid = {grid}')
-    print(f'grid[0] is grid[1]: {grid[0] is grid[1]}')
+    print(f"grid = {grid}")
+    print(f"grid[0] is grid[1]: {grid[0] is grid[1]}")
 
 
 def ex05_dict_comprehension():
@@ -77,7 +78,7 @@ def ex05_dict_comprehension():
 
 def ex06_dict_mutable_key():
     """
-    Dictionary yaratishda mutable type (list) ni key sifatida ishlatishga urinish, 
+    Dictionary yaratishda mutable type (list) ni key sifatida ishlatishga urinish,
     bu TypeError xatosini keltirib chiqaradi.
     """
     try:
@@ -98,22 +99,21 @@ def ex07_sets():
     4. ^ - Ushbu operator ikkita setning simmetrik farqini topadi.
     """
     usa_cars = {
-        "Fors", "Chevrolet", "Dodge",
-        "Tesla", "Cadillac", "Ferrari", "Lamborghini"
+        "Fors",
+        "Chevrolet",
+        "Dodge",
+        "Tesla",
+        "Cadillac",
+        "Ferrari",
+        "Lamborghini",
     }
-    italian_cars = {
-        "Ferrari", "Lamborghini",
-        "Maserati", "Fiat", "Chevrolet", "Tesla"
-    }
+    italian_cars = {"Ferrari", "Lamborghini", "Maserati", "Fiat", "Chevrolet", "Tesla"}
     both_cars = usa_cars & italian_cars
     only_usa_cars = usa_cars - italian_cars
     at_least_one_car = usa_cars | italian_cars
-    print(
-        f"USA va Italian ikkalasida mavjud bo'lgan avtomobillar: {both_cars}")
-    print(
-        f"USA da faqat, Italian da yo'q bo'lgan avtomobillar: {only_usa_cars}")
-    print(
-        f"Eng kamida birida mavjud bo'lgan avtomobillar: {at_least_one_car}")
+    print(f"USA va Italian ikkalasida mavjud bo'lgan avtomobillar: {both_cars}")
+    print(f"USA da faqat, Italian da yo'q bo'lgan avtomobillar: {only_usa_cars}")
+    print(f"Eng kamida birida mavjud bo'lgan avtomobillar: {at_least_one_car}")
 
 
 def ex08_list_to_set():

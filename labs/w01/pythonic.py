@@ -1,6 +1,6 @@
 def ex01_list_comprehension():
     """
-    List comprehension yordamida 1000 dan katta bo'lgan view qiymatlarini 
+    List comprehension yordamida 1000 dan katta bo'lgan view qiymatlarini
     1000 ga bo'lib, faqat butun qismini olish va natijalarni yangi listga joylashtirish.
     Misol uchun, 1200 // 1000 --> 1
     """
@@ -41,9 +41,9 @@ def is_palindrome(s: str) -> bool:
     Misol uchun, "radar" palindromdir, chunki u orqaga o'qilganda ham "radar" bo'ladi.
     """
     # Barcha harflarni kichik harflarga o'tkazish va faqat harflarni olish
-    cleaned_s = ''.join(filter(str.isalpha, s.lower()))
-    print(f'cleaned_s = {cleaned_s}')
-    print(f'cleaned_s[::-1] = {cleaned_s[::-1]}')
+    cleaned_s = "".join(filter(str.isalpha, s.lower()))
+    print(f"cleaned_s = {cleaned_s}")
+    print(f"cleaned_s[::-1] = {cleaned_s[::-1]}")
     return cleaned_s == cleaned_s[::-1]
 
 
