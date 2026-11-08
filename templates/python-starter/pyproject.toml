@@ -1,0 +1,31 @@
+[project]
+name = "python-starter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.ruff]
+line-length = 88
+# target-version yozmaymiz: ruff uni [project] dagi requires-python'dan o'zi oladi
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle: asosiy stil xatolari
+    "W",    # pycodestyle: ogohlantirishlar (ortiqcha bo'sh joy va h.k.)
+    "F",    # pyflakes: ishlatilmagan import/o'zgaruvchi, aniqlanmagan nom
+    "I",    # isort: importlar tartibi
+    "N",    # pep8-naming: nomlash qoidalari
+    "UP",   # pyupgrade: eski sintaksisni zamonaviysiga almashtirish
+    "B",    # flake8-bugbear: ko'p uchraydigan mantiqiy xatolar
+    "SIM",  # flake8-simplify: soddalashtirish mumkin bo'lgan kod
+    "C4",   # flake8-comprehensions: comprehension'larni to'g'ri yozish
+    "RUF",  # ruff'ning o'z qoidalari
+]
+ignore = [
+    "E501", # qator uzunligi: buni formatter o'zi hal qiladi
+]
+
+[tool.ruff.format]
+docstring-code-format = true
