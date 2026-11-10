@@ -27,3 +27,9 @@
 - Tushunmadim: `pyproject.toml` tushunarsiz ekan. 'pubspeck.yaml` file dan ancha farq qilarkan.
 - Ertaga: Hafta davomida o’rganganlaringizni (tiplar, comprehension, f-string, uv, ruff) bitta ishlaydigan CLI todo ilovada birlashtirish.
 - Commit: https://github.com/Shaxobiddin1705/ai-engineer-journey/commits/main/
+
+## D006 · 2026-11-10
+- Qildim: `labs/w01/todo_cli/` paketini yaratdim (`__init__.py`, `__main__.py`, `cli.py`, `storage.py`). `python -m` paketni joriy papkadan qidirishini o'rgandim. `argparse` subcommand'lar, `json` + `pathlib` bilan faylga saqlash, `stderr` va exit code mavzularini o'rgandim. 
+- Tushunmadim: argparse va subcommand larni tushunmadim
+- Ertaga: D007 — Hafta 01 review (WEEKLY.md), `notes/git.md` dagi bo'sh rebase/conflict bo'limlarini to'ldirish, repo tozalash.
+- Commit: https://github.com/Shaxobiddin1705/ai-engineer-journey/commit/b8c6744f387ebb5545c0ec19dab6ce9f0f161805
