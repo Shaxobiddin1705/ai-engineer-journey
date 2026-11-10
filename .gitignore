@@ -1,3 +1,6 @@
 .venv/
 __pycache__/
 .env
+settings.json
+todos.json
+.ruff_cache
