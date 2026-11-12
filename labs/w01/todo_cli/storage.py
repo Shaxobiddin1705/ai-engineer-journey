@@ -48,7 +48,7 @@ def main() -> None:
 
     theme = exit_code()
     if theme is None:
-        print("No theme found in this settings file.", file=sys.stderr)
+        print("No theme found in this settings file", file=sys.stderr)
         sys.exit(1)
 
 
