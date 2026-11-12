@@ -33,3 +33,9 @@
 - Tushunmadim: argparse va subcommand larni tushunmadim
 - Ertaga: D007 — Hafta 01 review (WEEKLY.md), `notes/git.md` dagi bo'sh rebase/conflict bo'limlarini to'ldirish, repo tozalash.
 - Commit: https://github.com/Shaxobiddin1705/ai-engineer-journey/commit/b8c6744f387ebb5545c0ec19dab6ce9f0f161805
+
+## D007 · 2026-11-12
+- Qildim: w01 hafta davomida o'rganilgan mavzularni review qilib chiqtim. Tushunmagan masalalarni ko'rib chiqtim. WEEKLY.md fileda haftalik review yozildi.
+- Tushunmadim: argparse va subcommand hali ham tushunarsiz.
+- Ertaga: D008 — Python funksiyasi argumentlarni qanday qabul qilishini (*args, **kwargs, *, /) to’liq tushunish va mutable default tuzog’ini o’z ko’zim bilan ko’rish.
+- Commit: https://github.com/Shaxobiddin1705/ai-engineer-journey/commit/b7ad08afe5720a931d2c23607cd5b7fbc4c612bb
