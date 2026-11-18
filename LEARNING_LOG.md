@@ -39,3 +39,9 @@
 - Tushunmadim: argparse va subcommand hali ham tushunarsiz.
 - Ertaga: D008 — Python funksiyasi argumentlarni qanday qabul qilishini (*args, **kwargs, *, /) to’liq tushunish va mutable default tuzog’ini o’z ko’zim bilan ko’rish.
 - Commit: https://github.com/Shaxobiddin1705/ai-engineer-journey/commit/b7ad08afe5720a931d2c23607cd5b7fbc4c612bb
+
+## D008 · 2026-11-18
+- Qildim: w02 args/kwargs mashiqlari bajarildi. Assert ni to'g'ri ishlatishni urganib oldim
+- Tushunmadim: funksi kanstruktiriga funksiya berish ishlatishda ozroq tushunmovchilik bor
+- Ertaga: Scope (LEGB), closure, nonlocal
+- Commit: https://github.com/Shaxobiddin1705/ai-engineer-journey/commit/1ad879de43a0a59c3c3ed2d4ada3b707f8fc9c01
